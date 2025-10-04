@@ -7,7 +7,7 @@ while(j >= i) {
     let mid = Math.floor((j+i)/2)
     if(nums[mid] === target) {
         console.log(mid)
-        return
+        break
     } else if(nums[mid] < target) {
         i++
     } else {
